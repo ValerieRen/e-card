@@ -1,0 +1,75 @@
+@CHARSET "UTF-8";
+@font-face {
+    font-family: dancingFont;
+    src: url(DancingScript-Regular.ttf);
+}
+.nav {
+	background-color: #00345b;
+}
+
+.nav.navbar-nav > .active > a, .nav.navbar-nav > .active > a:hover {
+		background-color: #00345b;
+		color: #a6bfcb;
+}
+
+.nav.navbar-nav li a, .nav.navbar-navs > .active > a, .nav.navbar-nav li div {
+	color: #fff;
+
+}
+
+.nav.navbar-nav li a:hover {
+	color: #a2c0d6;
+}
+
+spanT {
+	font-size: 27px;
+	font-style: oblique;
+}
+
+span {
+	font-size: 20px;
+	font-style: oblique;
+}
+
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+h2 { 
+   position: absolute; 
+   top: 270px; 
+   left: 0; 
+   width: 100%; 
+}
+h2 span.spacer {
+   padding:0 5px;
+}
+h2 span { 
+   color: black; 
+   font: dancingFont; 
+   letter-spacing: -1px;  
+   padding: 10px; 
+}
+
+.msg {
+	height: 150px;
+	width: 380px;
+	margin-top: -220px;
+	margin-left: 40px;
+	padding: 18px;
+	position: relative;
+	text-align: left;
+	font-size: 16px;
+	font-family: Comic Sans MS; 
+	/* border: 1px solid red; */
+}
+
+#msg_content
+{
+	padding-left: 20px;
+}
+#msg_footer
+{
+	text-align: right;
+}
